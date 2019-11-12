@@ -1,24 +1,39 @@
-# README
+# Ruby on Rails Tutorial
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a project created in Ruby on Rails, following a tutorial by [Traversy Media.](https://www.youtube.com/watch?v=pPy0GQJLZUM)
 
-Things you may want to cover:
+## Prerequisites
 
-* Ruby version
+Make sure you have installed all of the following prerequisites on your development machine:
+* Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
+* Ruby - [Download & Install Ruby](https://www.ruby-lang.org/en/downloads/). If you encounter any problems, you can also use this [RVM](https://rvm.io/) to install Ruby.
+* Rails - [Download & Install Rails](http://railsinstaller.org/en).
+* Ruby Gem - [Download & Install Ruby Gem](https://rubygems.org/pages/download).
 
-* System dependencies
+## Installing
+#### Cloning The GitHub Repository
+The recommended way to use this application is to clone it.
 
-* Configuration
+```bash
+    $ git clone https://github.com/RichardHpa/Ruby-on-Rails-Tutorial
+    $ cd Ruby-on-Rails-Tutorial
+```
 
-* Database creation
+#### Installing Dependencies
+Install all of the dependencies needed using Gem
+```bash
+    $ gem install
+```
 
-* Database initialization
+## Viewing your Application
+To start the app on [http://localhost:3000/](http://localhost:3000/) you need to turn call the command bellow.
+```bash
+    $ rails s
+```
+## License
 
-* How to run the test suite
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-* Services (job queues, cache servers, search engines, etc.)
+## Acknowledgments
 
-* Deployment instructions
-
-* ...
+* This repository follows the[Ruby On Rails In 60 Minutes](https://www.youtube.com/watch?v=pPy0GQJLZUM) tutorial by  [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
