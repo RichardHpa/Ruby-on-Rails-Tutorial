@@ -30,6 +30,11 @@ To start the app on [http://localhost:3000/](http://localhost:3000/) you need to
 ```bash
     $ rails s
 ```
+
+## Commands to remember
+```bash
+    $ rails g controller $name
+```
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
