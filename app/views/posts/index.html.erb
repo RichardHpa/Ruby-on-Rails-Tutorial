@@ -1,5 +1,15 @@
 <h1>Blog Posts</h1>
-<% @posts.each do |post| %>
-    <h3><%= post.title %></h3>
-    <p><%= post.body %></p>
-<% end %>
+
+<div class="row">
+    <% @posts.each do |post| %>
+    <div class="col-12 col-md-4">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title"><%= post.title %></h5>
+                <p class="card-text"><%= post.body %></p>
+            <%= link_to "Read more", post_path(post), :class => "btn btn-primary"%>
+            </div>
+        </div>
+    </div>
+    <% end %>
+</div>
